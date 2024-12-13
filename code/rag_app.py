@@ -247,7 +247,7 @@ with st.sidebar:
         add_to_vector_collection(all_splits, normalize_uploaded_file_name)
 
 # Question and Answer Area
-st.header("🗣️ ChatPDF - (by RAG) :  Query the PDF(s)??")
+st.header("🗣️ Dialekt-PDF(s) - (by RAG) :  Query the PDF(s)??")
 prompt = st.text_area("**Query a question related to your document:**")
 query = st.button(
     "🔥 Query the PDF(s)",
